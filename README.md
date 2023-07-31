@@ -1,5 +1,5 @@
 ## Battery_SOC_Estimation
-SOC (State of Charge) estimation for a battery using an ensemble approach with Coulomb counting and pre-trained LSTM prediction
+**SOC (State of Charge) estimation for a battery using an ensemble approach with Coulomb counting and pre-trained LSTM prediction**
 
 An accurate estimation of battery’s State of Charge (SoC) is a prerequisite prior to 
 devising battery management and control systems. Traditional techniques including Coulomb 
