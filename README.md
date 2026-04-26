@@ -1,19 +1,21 @@
-## Battery_SOC_Estimation
-**SOC (State of Charge) estimation for a battery using an ensemble approach with Coulomb counting and pre-trained LSTM prediction**
 
-An accurate estimation of battery’s State of Charge (SoC) is a prerequisite prior to 
-devising battery management and control systems. Traditional techniques including Coulomb 
-counting and open circuit voltage (OCV) methods still need improvements due to battery’s 
-innate issues such as non-linearity, temperature dependence, and aging effects. We 
-introduce a machine learning-based approach for estimating the SoC of a battery using voltage, 
-current, and temperature data. We utilized battery data from four Tesla Model 3 battery packs 
-with varying temperature and discharge cycle environments. This dataset encompasses the 
-battery's SoC, voltage, current, and temperature measurements over time. 
+# MATLAB AI Challenge 2023 – Battery SoC Estimation
 
-Our findings demonstrated that our model could estimate the battery's SoC with an RMSE 
-of less than 2%. The proposed methodology overcomes challenges inherent in conventional 
-estimation techniques and offers the potential for application across diverse battery 
-technologies while ensuring the explainability of the model's predictions
+This repository contains the official source code for our project, **“Electric Car Battery State of Charge (SoC) Estimation Using an Ensemble Method,”** which won **1st place** in the **MATLAB AI Challenge 2023**.
+
+The project develops an ensemble machine learning approach to estimate the State of Charge (SoC) of electric vehicle batteries using battery operation data.
+
+## Project Information
+
+- **Competition:** MATLAB AI Challenge 2023
+- **Award:** 1st Place Winner
+- **Project Title:** Electric Car Battery State of Charge (SoC) Estimation Using an Ensemble Method
+- **Presenters / Developers:** Jaemin Park, Bongseok Kim
+
+
+## Description
+
+Accurate battery State of Charge estimation is important for electric vehicle battery management systems. This project applies ensemble-based machine learning methods to improve SoC estimation accuracy and robustness
 
 ## Files 
 + Battery_Data.mat: Battery data for validation purposes.
